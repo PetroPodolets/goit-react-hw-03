@@ -1,0 +1,29 @@
+.contactList {
+    display: flex;
+    border: 1px solid #00d5ff;
+    border-radius: 5px;
+    width: 256px;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.name,
+.phoneNumber {
+    margin: 8px 0;
+}
+
+.svg {
+    padding-right: 10px;
+}
+
+.btnDelete {
+    width: 64px;
+    height: 32px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(62, 62, 255);
+    color: white;
+}
